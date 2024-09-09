@@ -1,0 +1,24 @@
+.listItem {
+  border-radius: 10px;
+  border: 1px solid lightslategray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  height: 50px;
+}
+
+.status {
+  font-size: 12px;
+  &.online {
+    color: green;
+  }
+  &.offline {
+    color: red;
+  }
+}
